@@ -175,11 +175,11 @@ const Projects = () => {
       outcomes: "By using a Producer-Consumer architecture, the system ensures that heavy image processing doesn't block the main web server."
     },
     {
-      title: "Task-Managerment-System with-DevOps-Practices",
-      description: "Designed and automated a full CI/CD pipeline using  GitHub Actions, Docker, and AWS EC2 .",
-      tags: ["Flask", "MYSQL", "Docker", "AWS EC2", "GitHub Actions"],
-      github: "https://github.com/Aartimehr/fullstack-devops-project",
-      outcomes: "It supports user authentication using JWT, database integration with MySQL, containerized deployment using Docker, and automated build & test pipelines via GitHub Actions."
+      title: "Task-Managerment-System",
+      description: "Built a full-stack CRUD application using React and Node.js, implementing MySQL and Sequelize ORM to manage relational data and real-time task synchronization.",
+      tags: ["React", "MYSQL", "Node.js", "JWT", "GitHub"],
+      github: "https://github.com/Aartimehr/TaskManagementSystem",
+      outcomes: "Integrated JWT Authentication and Bcrypt for secure user access, featuring a dynamic dashboard with React Hooks to track task statuses and time scheduling."
     },
     {
       title: "CricFolio-Cricket-Tournament-Management-System",
