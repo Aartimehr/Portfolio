@@ -21,10 +21,8 @@ const About = () => {
               <p>
                 I’m actively developing my skills through hands-on projects and structured learning programs.  I’m gaining practical experience with essential Development tools and methodologies.
               </p>
-              <p>
-                My focus also includes building CI/CD pipelines and leveraging cloud platforms to effectively bridge development and operations.
-              </p>
-
+              
+              
     
 
               <h4 className="mt-4">Knowledge Sharing</h4>

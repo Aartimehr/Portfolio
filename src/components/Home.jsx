@@ -124,7 +124,7 @@ const Home = () => {
                 <PurpleSpan className="hero-name">Aarti Mehra 👋</PurpleSpan>
               </h1>
               <div className="lead mb-5 typing-animation">
-                <p>I'm an aspiring Full Stack Developer with hands-on experience in building and deploying full-stack applications using tools like Docker, Vercel, and CI-CD pipelines.</p>
+                <p>I'm an aspiring Full Stack Developer with hands-on experience in building and deploying websites and applications using modern technologies.</p>
                 <p>Let's build something awesome together! 🚀</p>
               </div>
               <div>

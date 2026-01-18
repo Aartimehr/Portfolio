@@ -5,7 +5,7 @@ import {
   FaTerminal, FaCode, FaLock, 
   FaNodeJs
 } from 'react-icons/fa';
-import { SiKubernetes, SiTerraform, SiAnsible, SiPrometheus, SiGrafana, SiDjango, SiPreact, SiReact, SiMysql, SiMongodb } from 'react-icons/si';
+import { SiKubernetes, SiTerraform, SiAnsible, SiPrometheus, SiGrafana, SiDjango, SiPreact, SiReact, SiMysql, SiMongodb, SiVercel, SiPostgresql, SiReactrouter, SiExpress, SiJsonwebtokens } from 'react-icons/si';
 import styled from 'styled-components';
 import { ThemeContext } from '../context/ThemeContext';
 
@@ -138,20 +138,13 @@ const Skills = () => {
 
   const skillCategories = [
     {
-      title: "CI/CD",
-      skills: [
-
-        { name: "GitHub Actions", icon: <FaGithub /> }
-        
-      ]
-    },
-    {
-      title: "Tools and Technologies",
+      title: "Libraries and Frameworks",
       skills: [
         { name: "React", icon: <SiReact /> },
         { name: "Node.js", icon: <FaNodeJs /> },
-        { name: "Django", icon: <SiDjango />}
-
+        { name: "React Router DOM", icon: <SiReactrouter /> },
+        { name: "Express.js", icon: <SiExpress /> },
+        { name: "Json Web Token", icon: <SiJsonwebtokens /> }
       ]
     },
    
@@ -165,15 +158,15 @@ const Skills = () => {
       title: "Database Management",
       skills: [
         { name: "MySQL", icon: <SiMysql /> },
-        {name: "MongoDB", icon: <SiMongodb /> }
+        { name: "PostgreSQL", icon: <SiPostgresql /> }
       ]
     },
     {
       title: "Development & Version Control",
       skills: [
         { name: "Git & GitHub", icon: <FaGithub /> },
-        { name: "Python", icon: <FaCode /> },
-        { name: "Bash/Shell", icon: <FaTerminal /> }
+        { name: "Vercel", icon: <SiVercel /> }
+
       ]
     }
   ];
