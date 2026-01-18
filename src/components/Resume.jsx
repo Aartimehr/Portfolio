@@ -24,7 +24,7 @@ const PDFFrame = styled.iframe`
 `;
 
 const Resume = () => {
-  const googleDriveFileId = "1MH_-l_iSwkgT0VXeLpLaNL_ICgE58CYz"; 
+  const googleDriveFileId = "1X6zh_NH0RjaUr67Y1VppxPUMmksEx1BR"; 
 
   return (
     <ResumeContainer className="section">
@@ -37,10 +37,11 @@ const Resume = () => {
       <Row className="mb-4">
         <Col lg={8} className="mx-auto text-center">
           <Button 
-            href={`https://drive.google.com/file/d/1MH_-l_iSwkgT0VXeLpLaNL_ICgE58CYz/view?usp=drive_link=download&id=${googleDriveFileId}`} 
+            href={`https://drive.google.com/file/d/1X6zh_NH0RjaUr67Y1VppxPUMmksEx1BR/view?usp=sharing=drive_link=drive_link=download&id=${googleDriveFileId}`} 
             download="Aarti_M_Resume.pdf"
             variant="primary" 
             size="lg" 
+            
             className="resume-download-btn"
           >
             <FaDownload className="me-2" /> Download Resume
