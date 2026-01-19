@@ -14,7 +14,8 @@ const About = () => {
           <Card className="border-0 shadow-sm">
             <Card.Body className="p-5" style={{ textAlign: 'justify' }}>
               <p className="lead">
-                Hello, I'm Aarti Mehra, an aspiring Full stack developer passionate about developing websites and applications that are not only functional but also efficient and user-friendly. 
+                 I am an Aspiring Backend Developer with a deep fascination for how complex systems operate behind the scenes. While many start with the visual side of the web, I’ve dedicated my focus to the "hidden" architecture—ensuring that data is secure, APIs are efficient, and the server-side logic is rock solid.
+                 
               </p>
 
               <h4 className="mt-4">Learning Journey</h4>
@@ -30,10 +31,10 @@ const About = () => {
                 I document my learning journey and insights on <a href="https://hashnode.com/@aartim" target="_blank" rel="noopener noreferrer"><u>Hashnode</u></a>, sharing practical solutions and challenges encountered in the DevOps space.
               </p>
 
-              <h4 className="mt-4">Interests</h4>
+              {/* <h4 className="mt-4">Interests</h4>
               <p>
                 Beyond work, I enjoy exploring emerging technologies, engaging with tech communities, and staying abreast of trends in  development,and cloud computing.
-              </p>
+              </p> */}
 
               <h4 className="mt-4">Let’s Connect</h4>
               <p>

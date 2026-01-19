@@ -37,7 +37,7 @@ const Resume = () => {
       <Row className="mb-4">
         <Col lg={8} className="mx-auto text-center">
           <Button 
-            href={`https://drive.google.com/file/d/1X6zh_NH0RjaUr67Y1VppxPUMmksEx1BR/view?usp=sharing=drive_link=drive_link=download&id=${googleDriveFileId}`} 
+            href={`https://drive.google.com/file/d/1X6zh_NH0RjaUr67Y1VppxPUMmksEx1BR/view?usp=sharing=drive_link=download&id=${googleDriveFileId}`} 
             download="Aarti_M_Resume.pdf"
             variant="primary" 
             size="lg" 
