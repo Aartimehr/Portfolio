@@ -14,13 +14,12 @@ const About = () => {
           <Card className="border-0 shadow-sm">
             <Card.Body className="p-5" style={{ textAlign: 'justify' }}>
               <p className="lead">
-                 I am an Aspiring Backend Developer with a deep fascination for how complex systems operate behind the scenes. While many start with the visual side of the web, I’ve dedicated my focus to the "hidden" architecture—ensuring that data is secure, APIs are efficient, and the server-side logic is rock solid.
-                 
+                Hello! I’m Aarti Mehra, a passionate and dedicated DevOps enthusiast committed to mastering the art of seamless software delivery and infrastructure management.
               </p>
 
               <h4 className="mt-4">Learning Journey</h4>
               <p>
-                I’m actively developing my skills through hands-on projects and structured learning programs.  I’m gaining practical experience with essential Development tools and methodologies.
+                My journey into DevOps began with a fascination for automation and efficiency in software development. Over the years, I have immersed myself in learning various tools and practices that enhance collaboration between development and operations teams.
               </p>
               
               

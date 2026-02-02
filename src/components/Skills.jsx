@@ -165,7 +165,8 @@ const Skills = () => {
       title: "Development & Version Control",
       skills: [
         { name: "Git & GitHub", icon: <FaGithub /> },
-        { name: "Vercel", icon: <SiVercel /> }
+        { name: "Python", icon: <SiPython /> },
+        {name: "Bash/Shell Scripting", icon: <FaTerminal />}
 
       ]
     }
