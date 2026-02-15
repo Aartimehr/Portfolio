@@ -2,12 +2,11 @@ import { SiJavascript, SiPython } from 'react-icons/si';
 import React, { useState, useContext, useEffect } from 'react';
 import { Container, Row, Col, Card, Carousel } from 'react-bootstrap';
 import { 
-  FaJenkins, FaGithub, FaDocker, FaAws, 
-  FaTerminal, FaCode, FaLock, 
-  FaNodeJs,
+  FaGithub, FaDocker, FaAws, 
+  FaTerminal,
   FaLinux
 } from 'react-icons/fa';
-import { SiKubernetes, SiTerraform, SiAnsible, SiPrometheus, SiGrafana, SiDjango, SiPreact, SiReact, SiMysql, SiMongodb, SiVercel, SiPostgresql, SiReactrouter, SiExpress, SiJsonwebtokens } from 'react-icons/si';
+import { SiKubernetes, SiTerraform, SiAnsible, SiPrometheus, SiGrafana} from 'react-icons/si';
 import styled from 'styled-components';
 import { ThemeContext } from '../context/ThemeContext';
 
