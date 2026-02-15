@@ -24,7 +24,7 @@ const ResumeContainer = styled(Container)`
 // `;
 
 const Resume = () => {
-  const googleDriveFileId = "1WwIjS0wzUuPXocoAwY6kls9buNnGB8tC"; 
+  const googleDriveFileId = "Fxf58MDb6f4o1zDKXer_wavBmmqVET"; 
 
   return (
     <ResumeContainer className="section">
@@ -38,7 +38,7 @@ const Resume = () => {
         <Col lg={8} className="mx-auto text-center">
           <Button 
           
-            href={`https://drive.google.com/file/d/1WwIjS0wzUuPXocoAwY6kls9buNnGB8tC/view?usp=drive_link=download&id=${googleDriveFileId}`} 
+            href={`https://drive.google.com/file/d/1J_Fxf58MDb6f4o1zDKXer_wavBmmqVET/view?usp=drive_link=download&id=${googleDriveFileId}`} 
             download="Aarti_M_Resume.pdf"
             variant="primary" 
             size="lg" 
