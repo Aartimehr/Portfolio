@@ -168,6 +168,13 @@ const Projects = () => {
 
   const projects = [
     {
+      title: "Globalworkforce-Consulting-firm-website",
+      description: "A responsive website for a consulting firm built with React and styled-components.",
+      tags: ["React", "MYSQL", "AWS", "GitHub Actions", "AWS EC2", "Docker"],
+      github: "https://github.com/Aartimehr/Globalworkspace/tree/main",
+      outcomes: "Freelance Web Developer at Global Workforce\nBuilt and deployed the company website using  Implemented CI/CD pipelines with GitHub Actions to automate deployment and improve development efficiency.Built and deployed the company website using  Implemented CI/CD pipelines with GitHub Actions to automate deployment and improve development efficiency."
+    },
+    {
       title: "AWS-Snapscale-project-An AWS-Powered Asynchronous Image Processing System",
       description: "SnapScale is a cloud-native application designed to handle image resizing without slowing down the user experience.",
       tags: ["Docker", "Flask", "Python", "Containerd"," AWS S3 (Storage), AWS SQS (Queue)","Database MySQL"],
@@ -175,11 +182,18 @@ const Projects = () => {
       outcomes: "By using a Producer-Consumer architecture, the system ensures that heavy image processing doesn't block the main web server."
     },
     {
-      title: "Task-Managerment-System",
+      title: "Task Management System",
       description: "Built a full-stack CRUD application using React and Node.js, implementing MySQL and Sequelize ORM to manage relational data and real-time task synchronization.",
-      tags: ["React", "MYSQL", "Node.js", "JWT", "GitHub"],
+      tags: ["React", "MYSQL", "Node.js", "JWT", "GitHub Actions", "AWS EC2", "Docker"],
       github: "https://github.com/Aartimehr/TaskManagementSystem",
       outcomes: "Integrated JWT Authentication and Bcrypt for secure user access, featuring a dynamic dashboard with React Hooks to track task statuses and time scheduling."
+    },
+    {
+      title: "devops-containerized-app",
+      description: "A containerized application built with Docker and deployed using github actions.",
+      tags: ["Python (Flask)", "Docker & Docker Compose", "GitHub Actions", "AWS EC2", "Nginx", "MySQL"],
+      github: "https://github.com/Aartimehr/devops-containerized-app",
+      outcomes: "My first project that demonstrates the use of Docker for containerization and GitHub Actions for CI/CD, showcasing a simple Flask application deployed on AWS EC2 with Nginx as a reverse proxy and MySQL for data storage."
     },
     {
       title: "CricFolio-Cricket-Tournament-Management-System",
@@ -187,7 +201,7 @@ const Projects = () => {
       tags: ["React.js", "Tailwind CSS", "Git", "GitHub", "POSTgreSQL", "FASTAPIs"],
       github: "https://github.com/Aartimehr/CricFolio--Final-Year-Project-",
       outcomes: "It offers features such as tournament registration, match schedules, trending events, and a seamless user experience with a responsive design."
-    },
+    }
   ];
 
   return (

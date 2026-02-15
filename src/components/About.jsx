@@ -14,7 +14,7 @@ const About = () => {
           <Card className="border-0 shadow-sm">
             <Card.Body className="p-5" style={{ textAlign: 'justify' }}>
               <p className="lead">
-                Hello! I’m Aarti Mehra, a passionate and dedicated DevOps enthusiast committed to mastering the art of seamless software delivery and infrastructure management.
+                Hello! I’m Aarti Mehra, a passionate DevOps Engineer with a strong background in software development and cloud technologies. I specialize in building scalable and efficient infrastructure, automating deployment pipelines, and fostering collaboration between development and operations teams.
               </p>
 
               <h4 className="mt-4">Learning Journey</h4>
@@ -30,10 +30,10 @@ const About = () => {
                 I document my learning journey and insights on <a href="https://hashnode.com/@aartim" target="_blank" rel="noopener noreferrer"><u>Hashnode</u></a>, sharing practical solutions and challenges encountered in the DevOps space.
               </p>
 
-              {/* <h4 className="mt-4">Interests</h4>
+              <h4 className="mt-4">Interests</h4>
               <p>
                 Beyond work, I enjoy exploring emerging technologies, engaging with tech communities, and staying abreast of trends in  development,and cloud computing.
-              </p> */}
+              </p>
 
               <h4 className="mt-4">Let’s Connect</h4>
               <p>

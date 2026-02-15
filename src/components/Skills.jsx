@@ -1,9 +1,11 @@
+import { SiJavascript, SiPython } from 'react-icons/si';
 import React, { useState, useContext, useEffect } from 'react';
 import { Container, Row, Col, Card, Carousel } from 'react-bootstrap';
 import { 
   FaJenkins, FaGithub, FaDocker, FaAws, 
   FaTerminal, FaCode, FaLock, 
-  FaNodeJs
+  FaNodeJs,
+  FaLinux
 } from 'react-icons/fa';
 import { SiKubernetes, SiTerraform, SiAnsible, SiPrometheus, SiGrafana, SiDjango, SiPreact, SiReact, SiMysql, SiMongodb, SiVercel, SiPostgresql, SiReactrouter, SiExpress, SiJsonwebtokens } from 'react-icons/si';
 import styled from 'styled-components';
@@ -138,13 +140,11 @@ const Skills = () => {
 
   const skillCategories = [
     {
-      title: "Libraries and Frameworks",
+      title: "Operating Systems & Containerization",
       skills: [
-        { name: "React", icon: <SiReact /> },
-        { name: "Node.js", icon: <FaNodeJs /> },
-        { name: "React Router DOM", icon: <SiReactrouter /> },
-        { name: "Express.js", icon: <SiExpress /> },
-        { name: "Json Web Token", icon: <SiJsonwebtokens /> }
+        { name: "Linux", icon: <FaLinux /> },
+        { name: "Docker", icon: <FaDocker /> },
+        { name: "Kubernetes", icon: <SiKubernetes /> }
       ]
     },
    
@@ -155,21 +155,29 @@ const Skills = () => {
       ]
     },
     {
-      title: "Database Management",
+      title: "Infrastructure as Code & Configuration Management",
       skills: [
-        { name: "MySQL", icon: <SiMysql /> },
-        { name: "PostgreSQL", icon: <SiPostgresql /> }
+        { name: "Terraform", icon: <SiTerraform /> },
+        { name: "Ansible", icon: <SiAnsible /> }
+      ]
+    },
+     {
+      title: "Monitoring & Logging",
+      skills: [
+        { name: "Prometheus", icon: <SiPrometheus /> },
+        { name: "Grafana", icon: <SiGrafana /> }
       ]
     },
     {
       title: "Development & Version Control",
       skills: [
         { name: "Git & GitHub", icon: <FaGithub /> },
-        { name: "Python", icon: <SiPython /> },
+        { name:"JavaScript", icon: <SiJavascript /> },
         {name: "Bash/Shell Scripting", icon: <FaTerminal />}
 
       ]
     }
+    
   ];
 
   // Group categories based on screen size

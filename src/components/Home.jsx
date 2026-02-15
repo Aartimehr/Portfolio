@@ -124,7 +124,7 @@ const Home = () => {
                 <PurpleSpan className="hero-name">Aarti Mehra 👋</PurpleSpan>
               </h1>
               <div className="lead mb-5 typing-animation">
-                <p>Hello, I'm Aarti Mehra, in a world of pixels and layouts, I choose to know what beyond that.</p>
+                <p>My name is Aarti Mehra, and I'm a passionate and enthusiastic DevOps Engineer.</p>
                 <p>Let's build something awesome together! 🚀</p>
               </div>
               <div>
@@ -146,11 +146,10 @@ const Home = () => {
             <h2 className="section-title reveal">What I Do</h2>
             <p className="lead mb-5 reveal">
               As a fresher, I bring strong learning ability, adaptability, and a positive attitude. I am quick to learn new technologies, open to feedback, and comfortable working both independently and in a team. I focus on writing clean, understandable code and continuously improving my skills through projects and practice.
-
-I am highly motivated to grow as a software developer, contribute to the team’s goals, and build reliable, efficient solutions. With my technical foundation, hands-on project experience, and eagerness to learn, I believe I can add value to the organization while growing professionally.</p>
+              </p>
           </Col>
         </Row>
-        {/* <Row>
+        <Row>
           <Col md={4} className="mb-4 reveal">
             <div className="text-center card-3d">
               <SkillIconContainer>
@@ -191,7 +190,7 @@ I am highly motivated to grow as a software developer, contribute to the team’
               <p>Using tool like AWS CloudWatch to monitor system performance and troubleshoot issues effectively.</p>
             </div>
           </Col>
-        </Row> */}
+        </Row>
       </Container>
     </>
   );
